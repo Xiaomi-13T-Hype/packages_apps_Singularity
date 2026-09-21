@@ -104,7 +104,7 @@
     <string name="arrow_down" translatable="false">↓</string>
     <string name="hex" translatable="false">Hex:</string>
     <string name="hex_hint" translatable="false">#ff000000</string>
-    <string name="set">Набор</string>
+    <string name="set">Установить</string>
     <string name="color_default">По умолчанию</string>
     <string name="ok">Да</string>
     <string name="reset">Сброс</string>
@@ -128,15 +128,15 @@
     <string name="restart_systemui">Перезапустите интерфейс, для применения изменений!</string>
     <string name="default_value">По умолчанию</string>
     <string name="apply">Применить</string>
-    <string name="ongoing_progress_settings_title">Чип действий в статус-баре</string>
-    <string name="ongoing_progress_settings_summary">Настройте чип действия для отображения индикатора прогресса</string>
+    <string name="ongoing_progress_settings_title">Индикатор действий в строке состояния</string>
+    <string name="ongoing_progress_settings_summary">Настройка индикатора для отображения прогресса действий</string>
     <string name="ongoing_music_category_title">Музыка</string>
     <string name="ongoing_progress_category_title">Прогресс</string>
-    <string name="ongoing_action_chip_title">Фишка постоянного действия</string>
+    <string name="ongoing_action_chip_title">Индикатор текущего действия</string>
     <string name="ongoing_action_chip_summary">Отображение индикатора прогресса для текущих действий, таких как загрузка.</string>
-    <string name="ongoing_media_progress_title">Прогресс СМИ</string>
+    <string name="ongoing_media_progress_title">Прогресс медиа</string>
     <string name="ongoing_media_progress_summary">Отображение прогресса воспроизведения мультимедиа</string>
-    <string name="ongoing_progress_footer_text">«Чип действий в строке состояния обеспечивает обновления в реальном времени как для воспроизведения мультимедиа, так и для активных загрузок/выгрузок.
+    <string name="ongoing_progress_footer_text">«Индикатор действий в строке состояния обеспечивает обновления в реальном времени как для воспроизведения мультимедиа, так и для активных загрузок/выгрузок.
 
         Медиа-прогресс:
         • Отображает ход воспроизведения музыки и видео во время воспроизведения мультимедиа.
@@ -146,7 +146,7 @@
         • Проведите пальцем вправо, чтобы перейти к следующему треку.
         • Длительное нажатие открывает мультимедийное приложение. 
 
-        Ход загрузки/загрузки:
+        Ход скачивания/загрузки:
         • Показывает прогресс текущих загрузок и выгрузок.
         • Автоматически скрывается, если активные передачи не обнаружены.
         • Одно касание открывает приложение, ответственное за загрузку.
@@ -154,12 +154,12 @@
         Индикатор выполнения динамически переключается между состояниями мультимедиа и загрузки, гарантируя, что у вас всегда будет самая актуальная информация».</string>
     <string name="ongoing_compact_mode_title">Компактный индикатор прогресса</string>
     <string name="ongoing_compact_mode_summary">Используйте компактный круглый индикатор для текущих действий</string>
-    <string name="ongoing_chip_color_mode_title">Цвет фона музыкального чипа</string>
+    <string name="ongoing_chip_color_mode_title">Цвет фона музыкального индикатора</string>
     <string name="ongoing_chip_color_mode_accent">Системный акцентный цвет</string>
     <string name="ongoing_chip_color_mode_icon">Цвет значка приложения</string>
     <string name="ongoing_chip_color_mode_album_art">Цвет обложки альбома</string>
-    <string name="ongoing_chip_bg_alpha_title">Непрозрачность фона чипа</string>
-    <string name="ongoing_chip_bg_alpha_summary">Отрегулируйте непрозрачность чипа текущего действия.</string>
+    <string name="ongoing_chip_bg_alpha_title">Прозрачность фона индикатора</string>
+    <string name="ongoing_chip_bg_alpha_summary">Настройте прозрачность фона индикатора текущего действия</string>
     <string name="unit_seconds">сек.</string>
     <string name="unit_milliseconds">мс.</string>
     <string name="unit_pixels" translatable="false">dp</string>
@@ -204,7 +204,7 @@
     <string name="power_menu_actions_airplane_title">Самолет</string>
     <string name="power_menu_actions_torch_title">Фонарик</string>
     <string name="power_menu_actions_settings_title">Настройки</string>
-    <string name="power_menu_actions_lockdown_title">Карантин</string>
+    <string name="power_menu_actions_lockdown_title">Блокировка</string>
     <string name="power_menu_actions_lockdown_unavailable">Блокировка отключена, поскольку защита клавиатуры небезопасна.</string>
     <string name="power_menu_actions_soundpanel_title">Звуковая панель</string>
     <string name="power_menu_actions_users_title">Пользователи</string>
@@ -259,8 +259,8 @@
     <string name="hardware_keys_action_notifications_panel">Переключение панели уведомлений</string>
     <string name="hardware_keys_action_expand_qs_panel">Развернуть панель быстрых настроек</string>
     <string name="hardware_keys_action_ringer_modes">Изменить режим звонка</string>
-    <string name="hardware_keys_action_ambient_display">Триггер окружающего дисплея</string>
-    <string name="hardware_keys_action_system_popup">Всплывающий интерфейс системы триггеров</string>
+    <string name="hardware_keys_action_ambient_display">Включить «Активный экран»</string>
+    <string name="hardware_keys_action_system_popup">Показать системное окно</string>
     <string name="home_answer_call_title">Ответ на вызов</string>
     <string name="home_answer_call_summary">Отвечать на входящие вызовы нажатием кнопки «Домой»</string>
     <string name="camera_sleep_on_release_title">Быстрый просмотр</string>
@@ -307,7 +307,7 @@
     <string name="power_menu_torch_title">Фонарик</string>
     <string name="power_menu_settings_title">Настройки</string>
     <string name="power_menu_lockdown_title">Блокировка</string>
-    <string name="power_menu_lockdown_unavailable">Блокировка отключена, так как хранилище ключей небезопасно</string>
+    <string name="power_menu_lockdown_unavailable">Блокировка недоступна: экран блокировки не защищён</string>
     <string name="power_menu_soundpanel_title">Звуковая панель</string>
     <string name="power_menu_users_title">Пользователи</string>
     <string name="power_menu_logout_title">Выйти</string>
@@ -333,12 +333,12 @@
     <string name="monet_engine_tint_background_title">Оттенок фона</string>
     <string name="monet_engine_tint_background_summary">Выбор яркости и цветности, позволяет также влиять на цвета фона</string>
     <string name="monet_engine_style_title">Тема оформления</string>
-    <string name="monet_engine_style_tonal_spot">Тональное пятно (По умолчанию)</string>
+    <string name="monet_engine_style_tonal_spot">Тональный акцент (По умолчанию)</string>
     <string name="monet_engine_style_vibrant">Живая</string>
     <string name="monet_engine_style_expressive">Выразительная</string>
-    <string name="monet_engine_style_spritz">Брызги</string>
+    <string name="monet_engine_style_spritz">Приглушённая</string>
     <string name="monet_engine_style_rainbow">Радуга</string>
-    <string name="monet_engine_style_fruit_salad">Фруктовый салат</string>
+    <string name="monet_engine_style_fruit_salad">Контрастная</string>
     <string name="monet_engine_style_monochromatic">Монохромная</string>
     <string name="monet_engine_color_source_title">Источник цвета</string>
     <string name="monet_engine_color_source_both">Оба (по умолчанию)</string>
@@ -352,15 +352,15 @@
     <string name="chroma_neutral2_title">Нейтральный вариант цветности</string>
     <string name="hue_tone_settings_category">Оттенок и легкость</string>
     <string name="hue_shift_title">Вращение оттенка</string>
-    <string name="hue_shift_desc">Поверните оттенок цвета семян. Создает гармоничные смежные оттенки без изменения цвета семян вручную.</string>
+    <string name="hue_shift_desc">Поворот оттенка базового цвета. Создаёт гармоничные смежные оттенки без ручной смены базового цвета.</string>
     <string name="tone_shift_light_title">Смещение яркости (светлый режим)</string>
     <string name="tone_shift_light_desc">Сдвиньте все цвета светового режима светлее (+) или темнее (−) независимо от контрастности.</string>
     <string name="tone_shift_dark_title">Смещение яркости (темный режим)</string>
     <string name="tone_shift_dark_desc">Сдвиньте все цвета темного режима светлее (+) или темнее (−) независимо от контрастности.</string>
-    <string name="secondary_seed_category">Вторичный цвет семян</string>
-    <string name="use_secondary_seed_title">Включить вторичное начальное значение</string>
-    <string name="use_secondary_seed_desc">Используйте вторичные и третичные палитры из отдельного исходного цвета для двухцветной тематики.</string>
-    <string name="secondary_seed_color_title">Вторичный цвет семян</string>
+    <string name="secondary_seed_category">Вторичный базовый цвет</string>
+    <string name="use_secondary_seed_title">Включить вторичный базовый цвет</string>
+    <string name="use_secondary_seed_desc">Использовать отдельный базовый цвет для вторичной и третичной палитр (двухцветная тема).</string>
+    <string name="secondary_seed_color_title">Вторичный базовый цвет</string>
     <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если введён правильный PIN-код. Это менее безопасно, чем нажатие кнопки подтверждения.</string>
     <string name="doze_display_title">Активный экран</string>
     <string name="doze_display_summary">Настройка параметров «Активного экрана»</string>
@@ -766,7 +766,7 @@
     <string name="action_delete">Удалить</string>
     <string name="action_clear">Прозрачный</string>
     <string name="action_yes">Да</string>
-    <string name="action_set">Набор</string>
+    <string name="action_set">Установить</string>
     <string name="action_reset">Перезагрузить</string>
     <string name="action_remove">Удалять</string>
     <string name="action_add">Добавлять</string>
@@ -984,9 +984,9 @@
     <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
     <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
     <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит «</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в чёрный список</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Устройство «</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">На данный момент нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 ГГц &amp; 5 ГГц</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 ГГц и 6 ГГц</string>
@@ -1581,11 +1581,11 @@
     <string name="advanced_settings_category">Расширенные настройки</string>
     <string name="use_wallpaper_colors_title">Используйте цвета обоев</string>
     <string name="use_wallpaper_colors_desc">Извлекайте цвета из обоев</string>
-    <string name="custom_seed_color_title">Пользовательский цвет семян</string>
+    <string name="custom_seed_color_title">Свой базовый цвет</string>
     <string name="theme_style_title">Стиль темы</string>
     <string name="theme_style_desc">Выберите стиль цветовой палитры</string>
     <string name="fidelity_title">Цветопередача</string>
-    <string name="fidelity_desc">Более точно сохраните первоначальный цвет семян.</string>
+    <string name="fidelity_desc">Точнее сохранять исходный базовый цвет.</string>
     <string name="contrast_level_title">Уровень контрастности</string>
     <string name="chroma_boost_title">Усиление цветности</string>
     <string name="about_color_customization_title">О настройке цвета</string>
@@ -1859,7 +1859,7 @@
     <string name="idle_manager_backup_export_title">Экспорт настроек</string>
     <string name="idle_manager_backup_export_desc">Выберите, что вы хотите включить в файл резервной копии:</string>
     <string name="idle_manager_backup_include_global">Включить глобальные конфигурации</string>
-    <string name="idle_manager_backup_include_global_desc">Переключатель включения, триггер спящего режима и т. д.</string>
+    <string name="idle_manager_backup_include_global_desc">Переключатели, запуск спящего режима и т. д.</string>
     <string name="idle_manager_backup_include_apps">Включить конфигурации приложения</string>
     <string name="idle_manager_backup_include_apps_desc">Настраиваемые тайм-ауты и действия для выбранных приложений</string>
     <string name="idle_manager_backup_select_apps">Выберите приложения для экспорта</string>
@@ -1964,7 +1964,7 @@
     <string name="dynamic_bar_summary">Интеллектуальный индикатор в строке состояния для активных событий, таких как запись, мультимедиа, таймеры и многое другое</string>
     <string name="dynamic_bar_enable">Вкл. динамическую панель</string>
     <string name="dynamic_bar_enable_summary">Отображать динамический индикатор в строке состояния для текущих событий</string>
-    <string name="dynamic_bar_chip_style_title">Стиль чипа строки состояния</string>
+    <string name="dynamic_bar_chip_style_title">Стиль индикатора строки состояния</string>
     <string name="dynamic_bar_keyguard_enable">Динамическая панель на экране блокировки</string>
     <string name="dynamic_bar_keyguard_enable_summary">Замена индикаторов экрана блокировки на динамические индикаторы с элементами управления и быстрыми действиями</string>
     <string name="dynamic_bar_keyguard_battery_chip">Информация о батареи на экране блокировки</string>
@@ -2160,7 +2160,7 @@
     <string name="status_bar_dynamic_island_title">Динамичный остров</string>
     <string name="status_bar_dynamic_island_summary">Настройте остров и выберите, какие функции могут отображаться.</string>
     <string name="dynamic_island_footer_title">О Динамическом острове</string>
-    <string name="dynamic_island_intro">Включите динамический остров и выберите нужные функции на центральном чипе.</string>
+    <string name="dynamic_island_intro">Включите Dynamic Island и выберите нужные функции для центрального индикатора.</string>
     <string name="dynamic_island_features_title">Функции</string>
     <string name="dynamic_island_media_controls_title">Средства управления медиа</string>
     <string name="dynamic_island_media_controls_summary">Показывать элементы управления воспроизведением и изображения на острове</string>
@@ -2191,7 +2191,7 @@
     <string name="fling_velocity_max_summary">Более высокие значения требуют более быстрого щелчка для достижения максимальной скорости метания.</string>
     <string name="fling_velocity_units" translatable="false">dp/s</string>
     <string name="qs_header_clock_style_title">Стиль часов заголовка QS</string>
-    <string name="qs_header_style1">Чип</string>
+    <string name="qs_header_style1">Индикатор</string>
     <string name="qs_header_style2">Кислород</string>
     <string name="qs_header_style3">Аналоговый</string>
     <string name="qs_header_style4">Простой</string>
@@ -2206,7 +2206,28 @@
     <string name="custom_notif_scrim_color_enabled_summary">Переопределить цвет фона экрана уведомлений (тонированный и неточный)</string>
     <string name="custom_notif_scrim_color_title">Цвет сетки уведомлений</string>
     <string name="power_menu_compose_style_title">Стиль меню питания</string>
-    <string name="power_menu_compose_style_legacy">Наследие</string>
+    <string name="power_menu_compose_style_legacy">Классический</string>
     <string name="power_menu_compose_style_grid">Сетка</string>
-    <string name="power_menu_compose_style_slider">Слайдер</string>
+    <string name="power_menu_compose_style_slider">Ползунок</string>
+
+    <!-- Missing plurals -->
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> приложение защищено</item>
+        <item quantity="few"><xliff:g example="3" id="Number of applications">%1$d</xliff:g> приложения защищены</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> приложений защищено</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> приложений защищено</item>
+    </plurals>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> секунда</item>
+        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> секунды</item>
+        <item quantity="many"><xliff:g id="seconds">%d</xliff:g> секунд</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> секунд</item>
+    </plurals>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="one">К точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройства</item>
+        <item quantity="few">К точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+        <item quantity="many">К точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+        <item quantity="other">К точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+    </plurals>
+
 </resources>
